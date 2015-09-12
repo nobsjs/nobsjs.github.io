@@ -9,6 +9,7 @@
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
 </head>
 <body id="top" class="scrollspy">
 
@@ -28,10 +29,9 @@
             <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">NoBSjs</a>
             <ul id="nav-mobile" class="right side-nav">
                 <li><a href="#intro">About</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#work">Modules</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="" target="_blank">Download</a></li>
+                <li><a href="#getting-started">Getting Started</a></li>
             </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </div>
@@ -46,8 +46,8 @@
             <span class="cd-words-wrapper waiting">
                 <b class="is-visible">businesses</b>
                 <b>developers</b>
+                <b>organizations</b>
                 <b>getting shit done</b>
-                <b>owners</b>
             </span>
         </h1>
     </div>
@@ -58,28 +58,28 @@
     <div class="container">
         <div class="row">
             <div  class="col s12">
-                <h2 class="center header text_h2"> <span class="span_h2"> NoBSjs</span> is a boiler plate web application for small businesses that is built with AngularJS, Node, Express, and SQL. <span class="span_h2"> laoreet quis.</span> </h2>
+                <h2 class="center header text_h2">NoBSjs is an <span class="span_h2">open sourced, boilerplate</span> codebase that helps developers create robust web applications for <span class="span_h2">small businesses</span> and <span class="span_h2">organizations.</span> NoBSjs is built with AngularJS and Angular Material on the frontend and Node, Express, and SQL on the backend.</h2>
             </div>
 
             <div  class="col s12 m4 l4">
                 <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">NoBSjs provides the framework to create robust web applications for small businesses in very little time.</p>
+                    <i class="mdi-social-group"></i>
+                    <h5 class="promo-caption">Speed up development</h5>
+                    <p class="light center">The NoBSjs codebase comes with all the standard features a web application needs. This allows developers to focus on the unique aspects of a project and deliver better products.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">Modern Stack</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <h5 class="promo-caption">Modulars</h5>
+                    <p class="light center">Every feature in the NoBSjs codebase is completely modularized. This means modules can be added and removed without affecting any other functionality of the application.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    <i class="mdi-social-group"></i>
+                    <h5 class="promo-caption">Open Sourced</h5>
+                    <p class="light center">NoBSjs is an open source project. We encourage developers to fork our repo, build new modules, and fix bugs.</p>
                 </div>
             </div>
         </div>
@@ -89,95 +89,79 @@
 <!--Work-->
 <div class="section scrollspy" id="work">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
+        <h2 class="header text_b">Modules </h2>
         <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="core-tag">Core</div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Authentication <i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Authentication <i class="mdi-navigation-close right"></i></span>
+                        <p>Why recreate the wheel? Auth for users is included in the core module. Users can sign up, log in, and reset passwords right out of the box. Auth utilizes JWT tokens for secure session management.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                <div class="core-tag">Core</div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project2.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pages <i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pages <i class="mdi-navigation-close right"></i></span>
+                        <p>Pages enables CMS features. Allow users to add new pages to the site and edit their content via WYSIWYG or HTML.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="core-tag">Core</div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project3.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Tabs <i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Tabs <i class="mdi-navigation-close right"></i></span>
+                        <p>Add tabs to the naviagation bar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="core-tag">Core</div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Manage Users <i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Manage Users <i class="mdi-navigation-close right"></i></span>
+                        <p>Allow administrative users to manage all users of a site. Edit user information and roles from the admin panel.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="img/project1.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Blog <i class="mdi-navigation-more-vert right"></i></span>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project6.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4">Blog <i class="mdi-navigation-close right"></i></span>
+                        <p>The blog module allows users to create and edit blog posts.</p>
                     </div>
                 </div>
             </div>
@@ -198,20 +182,31 @@
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png">
+                        <img class="activator" src="img/cody.jpeg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Flash <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
+                        <span class="card-title activator grey-text text-darken-4">Cody Diag </span>
                         <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
+                            <a class="blue-text text-lighten-2" href="https://github.com/codydaig">
+                                <i class="fa fa-github-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
+                            <a class="blue-text text-lighten-2" href="">
+                                <i class="fa fa-linkedin-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/rob.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Rob Rodrigez </span>
+                        <p>
+                            <a class="blue-text text-lighten-2" href="https://github.com/RRDuke">
+                                <i class="fa fa-github-square"></i>
                             </a>
                             <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
                                 <i class="fa fa-linkedin-square"></i>
@@ -223,47 +218,14 @@
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
-                        </span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar3.png">
+                        <img class="activator" src="img/marco.jpeg">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
+                            Marco Viappiani </span>
                         <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
+                            <a class="blue-text text-lighten-2" href="https://github.com/marcoviappiani">
+                                <i class="fa fa-github-square"></i>
                             </a>
                             <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
                                 <i class="fa fa-linkedin-square"></i>
@@ -275,20 +237,16 @@
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
+                        <img class="activator" src="img/trevor.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
+                        <span class="card-title activator grey-text text-darken-4">Trevor Hanus </span>
                         <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                            <!-- <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
                                 <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
+                            </a> -->
+                            <a class="blue-text text-lighten-2" href="https://www.github.com/trevorhanus">
+                                <i class="fa fa-github-square"></i>
                             </a>
                             <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
                                 <i class="fa fa-linkedin-square"></i>
@@ -302,7 +260,7 @@
 </div>
 
 <!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
+<footer id="getting-started" class="page-footer default_color scrollspy">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -363,11 +321,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
         </div>
     </div>
 </footer>

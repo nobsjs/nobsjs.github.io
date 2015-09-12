@@ -5,6 +5,17 @@
  * Thanks for MaterializeCSS.com
  */
 
+ .core-tag {
+     position: absolute;
+     left: 4px;
+     top: 4px;
+     padding: 3px;
+     background-color: #2196F3;
+     color: white;
+     border-radius: 3px;
+     z-index: 100;
+ }
+
 .default_color{background-color: #2196F3 !important}
 
 .default_color_text{color: #2196F3 !important}
@@ -24,7 +35,7 @@
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
