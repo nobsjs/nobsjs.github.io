@@ -9,7 +9,7 @@
      position: absolute;
      left: 4px;
      top: 4px;
-     padding: 3px;
+     padding: 2px 5px;
      background-color: #2196F3;
      color: white;
      border-radius: 3px;
@@ -242,7 +242,12 @@ nav a.button-collapse {
 
 .card-avatar .waves-effect {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.card-avatar.promo {
+    margin: 30px auto 0px auto;
+    text-align: center;
 }
 
 .card-avatar img {
