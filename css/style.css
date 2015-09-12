@@ -272,6 +272,18 @@ nav a.button-collapse {
     line-height: 30px !important;
 }
 
+.live-demo-link {
+    font-size: 3.0em;
+    font-weight: 100;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.live-demo-link:hover {
+    text-decoration: underline;
+}
+
 .parallax-container {
     max-height: 400px;
 }
