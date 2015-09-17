@@ -276,6 +276,10 @@ nav a.button-collapse {
   line-height: 30px !important;
 }
 
+.card-team-height {
+  min-height: 350px;
+}
+
 .live-demo-link {
   font-size: 3.0em;
   font-weight: 100;
