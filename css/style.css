@@ -290,6 +290,7 @@ nav a.button-collapse {
 
 .live-demo-link a:hover {
   font-weight: 300;
+  text-decoration: underline;
 }
 
 .live-demo-link a {
